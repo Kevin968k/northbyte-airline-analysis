@@ -1,0 +1,23 @@
+# Private case inputs and teammate data
+data/
+private/
+archive/
+*.xlsx
+*.xls
+*.csv
+*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*credentials*.json
+*token*.json
+
+# Notebook/runtime artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store

@@ -1,0 +1,6 @@
+# Core libraries only; original competition versions were not recorded here.
+# The notebooks use Google Colab upload/download helpers.
+pandas
+numpy
+matplotlib
+openpyxl
