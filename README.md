@@ -63,9 +63,9 @@ These are archived output tables from the competition analysis; the original not
 
 The notebooks were recovered from the competition archive. For this repository, execution outputs and environment metadata were removed; source cells were preserved. **A post-competition local run matched 26 archived output tables, conditional on the archived teammate revenue/gate inputs. This is not a raw-workbook-to-results end-to-end run.**
 
-The historical notebooks use Google Colab upload/download helpers. The separate [local verification runner](scripts/reproduce.py) executes selected calculation cells without those prompts. Three larger archived CSVs are still required and are listed with their exact paths in [`docs/reproduce.md`](docs/reproduce.md). Review [`docs/data_access.md`](docs/data_access.md) for data provenance.
+The historical notebooks use Google Colab upload/download helpers. The separate [local verification runner](scripts/reproduce.py) executes selected calculation cells without those prompts. The archived CSV inputs and reference tables are included in this repository; [`docs/reproduce.md`](docs/reproduce.md) gives exact paths and commands. Review [`docs/data_access.md`](docs/data_access.md) for data provenance.
 
-The three original case workbooks are available in [`data/raw/`](data/raw/): [transactions](data/raw/transactions.xlsx), [costs](data/raw/costs.xlsx), and [gates](data/raw/gates.xlsx). Some teammate-derived intermediate tables and the full team presentation are not included. The raw workbooks alone do not make the integration notebook executable from start to finish. No redistribution licence is granted for the case data or teammate materials.
+The three original case workbooks are available in [`data/raw/`](data/raw/): [transactions](data/raw/transactions.xlsx), [costs](data/raw/costs.xlsx), and [gates](data/raw/gates.xlsx). The archived teammate-derived input tables are included for the post-competition verification runner; their upstream construction from raw workbooks has not been reproduced here. The full team presentation is not included. No redistribution licence is granted for the case data or teammate materials.
 
 ## What I learned
 
