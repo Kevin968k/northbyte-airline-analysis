@@ -51,6 +51,7 @@ These are archived output tables from the competition analysis; the original not
 | [`results/`](results/) | Archived financial, scenario and operating-cost reference tables |
 | [`scripts/reproduce.py`](scripts/reproduce.py) | Post-competition runner for selected notebook calculation cells |
 | [`docs/reproduce.md`](docs/reproduce.md) | Exact inputs, local commands, validation and limitations |
+| [`docs/validation_2026-10-19.json`](docs/validation_2026-10-19.json) | Recorded 26-table post-competition local validation |
 | `notebooks/01_operating_costs.ipynb` | Operating-cost cleaning, aggregation and cost comparisons |
 | `notebooks/02_team_integration.ipynb` | Integration of teammate revenue/gate outputs, financial comparisons and scenario modelling |
 | `docs/methodology.md` | Calculation rules and interpretation limits |
