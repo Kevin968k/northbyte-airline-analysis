@@ -48,7 +48,9 @@ These are archived output tables from the competition analysis; the original not
 | Path | Contents |
 |---|---|
 | [`data/raw/`](data/raw/) | Original `transactions.xlsx`, `costs.xlsx`, and `gates.xlsx` case workbooks |
-| [`results/`](results/) | Selected archived financial, scenario and operating-cost tables |
+| [`results/`](results/) | Archived financial, scenario and operating-cost reference tables |
+| [`scripts/reproduce.py`](scripts/reproduce.py) | Post-competition runner for selected notebook calculation cells |
+| [`docs/reproduce.md`](docs/reproduce.md) | Exact inputs, local commands, validation and limitations |
 | `notebooks/01_operating_costs.ipynb` | Operating-cost cleaning, aggregation and cost comparisons |
 | `notebooks/02_team_integration.ipynb` | Integration of teammate revenue/gate outputs, financial comparisons and scenario modelling |
 | `docs/methodology.md` | Calculation rules and interpretation limits |
@@ -59,9 +61,9 @@ These are archived output tables from the competition analysis; the original not
 
 ## Reproduction status
 
-The notebooks were recovered from the competition archive. For this repository, execution outputs and environment metadata were removed; source cells were preserved. **A fresh end-to-end run has not yet been completed.**
+The notebooks were recovered from the competition archive. For this repository, execution outputs and environment metadata were removed; source cells were preserved. **A post-competition local run matched 26 archived output tables, conditional on the archived teammate revenue/gate inputs. This is not a raw-workbook-to-results end-to-end run.**
 
-These notebooks use Google Colab upload/download helpers and retain the original competition workflow, including exploratory and later integration stages. They are not a standalone local command-line pipeline. Review [`docs/data_access.md`](docs/data_access.md) before running them.
+The historical notebooks use Google Colab upload/download helpers. The separate [local verification runner](scripts/reproduce.py) executes selected calculation cells without those prompts. Three larger archived CSVs are still required and are listed with their exact paths in [`docs/reproduce.md`](docs/reproduce.md). Review [`docs/data_access.md`](docs/data_access.md) for data provenance.
 
 The three original case workbooks are available in [`data/raw/`](data/raw/): [transactions](data/raw/transactions.xlsx), [costs](data/raw/costs.xlsx), and [gates](data/raw/gates.xlsx). Some teammate-derived intermediate tables and the full team presentation are not included. The raw workbooks alone do not make the integration notebook executable from start to finish. No redistribution licence is granted for the case data or teammate materials.
 
