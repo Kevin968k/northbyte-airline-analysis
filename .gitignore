@@ -1,11 +1,8 @@
-# Private case inputs and teammate data
-data/
+# Local-only material
 private/
 archive/
-*.xlsx
-*.xls
-*.csv
 *.zip
+results/reproduced/
 
 # Credentials and local configuration
 .env
