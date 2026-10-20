@@ -4,7 +4,7 @@ This is a post-competition verification workflow. The original competition noteb
 
 ## Required files
 
-The repository includes `data/raw/costs.xlsx`, the small `data/processed/` rent and cost tables, and the reference CSVs under `results/`. Three larger archived files must also be placed at these exact paths:
+The repository includes `data/raw/costs.xlsx`, the small `data/processed/` rent and cost tables, and the reference CSVs under `results/`. The following larger archived files are now included in the repository at these exact paths:
 
 | Path | Approximate size | Purpose |
 |---|---:|---|
@@ -12,7 +12,7 @@ The repository includes `data/raw/costs.xlsx`, the small `data/processed/` rent 
 | `data/processed/transaction_date_candidates.csv` | 31 MB | Alternative dates for ambiguous transactions |
 | `results/operating_costs/flight_costs.csv` | 2.7 MB | Flight-level reference for the first comparison |
 
-Check that the CSV filenames have no added suffix such as ` (1)`. The first two tables were generated in the teammates' upstream analyses and are archived inputs here. The runner does **not** derive them from `data/raw/transactions.xlsx` or derive the rent tables from `data/raw/gates.xlsx`.
+The first two tables were generated in the teammates' upstream analyses and are archived inputs here. The runner does **not** derive them from `data/raw/transactions.xlsx` or derive the rent tables from `data/raw/gates.xlsx`.
 
 ## Run locally
 
