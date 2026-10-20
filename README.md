@@ -38,6 +38,7 @@ The recommendation was to pause further frequency expansion on the four priority
 
 | Path | Contents |
 |---|---|
+| [`data/raw/`](data/raw/) | Original `transactions.xlsx`, `costs.xlsx`, and `gates.xlsx` case workbooks |
 | `notebooks/01_operating_costs.ipynb` | Operating-cost cleaning, aggregation and cost comparisons |
 | `notebooks/02_team_integration.ipynb` | Integration of teammate revenue/gate outputs, financial comparisons and scenario modelling |
 | `docs/methodology.md` | Calculation rules and interpretation limits |
@@ -52,7 +53,7 @@ The notebooks were recovered from the competition archive. For this repository, 
 
 These notebooks use Google Colab upload/download helpers and retain the original competition workflow, including exploratory and later integration stages. They are not a standalone local command-line pipeline. Review [`docs/data_access.md`](docs/data_access.md) before running them.
 
-Raw competition data, teammate input tables and the full team presentation are excluded from this initial repository package. The complete private archive is maintained separately. Publication rights for those materials have not been established by this repository.
+The three original case workbooks are available in [`data/raw/`](data/raw/): [transactions](data/raw/transactions.xlsx), [costs](data/raw/costs.xlsx), and [gates](data/raw/gates.xlsx). Some teammate-derived intermediate tables and the full team presentation are not included. The raw workbooks alone do not make the integration notebook executable from start to finish. No redistribution licence is granted for the case data or teammate materials.
 
 ## What I learned
 
