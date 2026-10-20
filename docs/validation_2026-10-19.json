@@ -1,0 +1,147 @@
+{
+  "scope": "Raw costs to cost summaries; archived upstream revenue/gate inputs to integrated results",
+  "upstream_transaction_and_gate_rebuild": "not performed",
+  "environment": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  },
+  "tables_compared": 26,
+  "checks": [
+    {
+      "reference": "results/operating_costs/flight_costs.csv",
+      "rows": 28801,
+      "status": "passed"
+    },
+    {
+      "reference": "data/processed/route_monthly_costs.csv",
+      "rows": 1260,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/airport_monthly_departures.csv",
+      "rows": 468,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/monthly_costs.csv",
+      "rows": 24,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/annual_costs.csv",
+      "rows": 2,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/annual_comparison.csv",
+      "rows": 7,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/route_annual_costs.csv",
+      "rows": 108,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/route_comparison.csv",
+      "rows": 54,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/cost_increase_breakdown.csv",
+      "rows": 4,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/route_decomposition.csv",
+      "rows": 54,
+      "status": "passed"
+    },
+    {
+      "reference": "results/operating_costs/decomposition_summary.csv",
+      "rows": 3,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/company_fiscal_results.csv",
+      "rows": 6,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/route_fiscal_results.csv",
+      "rows": 324,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/pair_fiscal_results.csv",
+      "rows": 162,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/pair_sensitivity.csv",
+      "rows": 54,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/current_pair_results.csv",
+      "rows": 27,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/priority_pair_comparison.csv",
+      "rows": 8,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/priority_pair_changes.csv",
+      "rows": 4,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/route_fiscal_revenue_bounds.csv",
+      "rows": 108,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/frequency_adjustment_baseline.csv",
+      "rows": 4,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/frequency_adjustment_scenarios.csv",
+      "rows": 12,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/frequency_adjustment_totals.csv",
+      "rows": 3,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/priority_cost_category_changes.csv",
+      "rows": 16,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/priority_cost_category_totals.csv",
+      "rows": 4,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/positive_airport_pair_results.csv",
+      "rows": 12,
+      "status": "passed"
+    },
+    {
+      "reference": "results/integration/network_group_summary.csv",
+      "rows": 2,
+      "status": "passed"
+    }
+  ],
+  "inferred_flights": 28801,
+  "operating_cost_cad": 431362040.24,
+  "unique_transactions": 558129,
+  "net_transaction_revenue_cad": 370629024.84999996
+}
