@@ -12,6 +12,16 @@ Which parts of the airline's network deserve priority review, and under what con
 
 The case covers September 2024–August 2026 and combines customer transactions, flight operating costs and airport gate leases. This was a competition case, not an engagement for a real airline client.
 
+## At a glance
+
+| Scope | Outcome | Verification |
+|---|---|---|
+| 3 case workbooks · 28,801 inferred flights · 558,129 deduplicated transactions | Four priority airport pairs identified for closer review | 26 archived output tables matched in a post-competition local run |
+
+The company-level annual deficit rose from about **CAD 21.42–22.85M** in FY2024–25 to **CAD 57.56–59.29M** in FY2025–26 across the tested date-allocation and gate-rent assumptions. The ranges describe model assumptions, not statistical confidence intervals.
+
+![Company financial deficit ranges for two fiscal years](results/integration/02_company_fiscal_deficit_ranges.png)
+
 ## Selected findings
 
 | Finding | Interpretation |
@@ -19,6 +29,16 @@ The case covers September 2024–August 2026 and combines customer transactions,
 | 15 of 27 airport pairs had negative results across all tested date and rent scenarios in FY2025–26 | A starting point for investigation, not an automatic closure recommendation |
 | Four priority pairs added 1,189 flights, with CAD 26.84M higher operating costs and about CAD 0.80–1.46M higher net revenue | Expansion warranted review; annual comparisons do not identify the causal return of each added flight |
 | Fuel, crew and maintenance explained 96.8% of operating-cost growth on the four pairs | The largest areas for cost investigation, not an achievable savings percentage |
+
+### Where did the gap widen?
+
+The four priority pairs saw much larger increases in operating costs than in net transaction revenue. Revenue bounds reflect uncertainty in assigning transaction dates; costs use flight dates. This comparison does not measure the profit of an individual added flight.
+
+![Operating-cost growth against revenue-growth bounds for four airport pairs](results/integration/01_priority_cost_vs_revenue_growth.png)
+
+Under the Base gate-rent scenario, Montréal–Vancouver had the largest estimated airport-pair deficit. A route deficit alone does not establish that removing the route would save that amount.
+
+![Four largest airport-pair deficits under the Base rent scenario](results/integration/03_priority_airport_pair_deficits.png)
 
 ## Frequency-reduction sensitivity
 
