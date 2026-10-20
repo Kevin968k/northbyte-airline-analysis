@@ -34,11 +34,21 @@ We modelled the removal of **468 annual flights**, approximately 10% across four
 
 The recommendation was to pause further frequency expansion on the four priority pairs, validate flight-specific costs and revenue at risk, and run feasible pilots with explicit review gates.
 
+## Explore the analysis
+
+- [Annual financial results](results/integration/company_fiscal_results.csv) — company-level fiscal deficit across date and rent assumptions.
+- [Four priority airport pairs](results/integration/priority_pair_comparison.csv) — flight growth, revenue and operating-cost comparison.
+- [Frequency sensitivity](results/integration/frequency_adjustment_totals.csv) — combined 40/60/80% avoidable-cost scenarios.
+- [Operating costs by fiscal year](results/operating_costs/annual_comparison.csv) and [cost growth by category](results/operating_costs/cost_increase_breakdown.csv).
+
+These are archived output tables from the competition analysis; the original notebooks and their input limitations are documented below.
+
 ## Repository guide
 
 | Path | Contents |
 |---|---|
 | [`data/raw/`](data/raw/) | Original `transactions.xlsx`, `costs.xlsx`, and `gates.xlsx` case workbooks |
+| [`results/`](results/) | Selected archived financial, scenario and operating-cost tables |
 | `notebooks/01_operating_costs.ipynb` | Operating-cost cleaning, aggregation and cost comparisons |
 | `notebooks/02_team_integration.ipynb` | Integration of teammate revenue/gate outputs, financial comparisons and scenario modelling |
 | `docs/methodology.md` | Calculation rules and interpretation limits |
